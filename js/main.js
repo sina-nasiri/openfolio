@@ -17,11 +17,23 @@ document.addEventListener('DOMContentLoaded', async () => {
  */
 async function loadConfig() {
   try {
+    // First, check if config is embedded inline (for local file access)
+    if (window.OPENFOLIO_CONFIG) {
+      config = window.OPENFOLIO_CONFIG;
+      populateContent();
+      return;
+    }
+
+    // Try to fetch from config.json (works with HTTP server)
     const response = await fetch('./config.json');
+    if (!response.ok) {
+      throw new Error(`HTTP error! status: ${response.status}`);
+    }
     config = await response.json();
     populateContent();
   } catch (error) {
     console.error('Error loading config.json:', error);
+    console.warn('To view sample data when opening directly as a file, please run: python3 -m http.server');
     console.log('Using default content from HTML');
   }
 }
