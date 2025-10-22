@@ -17,7 +17,7 @@ document.addEventListener('DOMContentLoaded', async () => {
  */
 async function loadConfig() {
   try {
-    const response = await fetch('/config.json');
+    const response = await fetch('./config.json');
     config = await response.json();
     populateContent();
   } catch (error) {
