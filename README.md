@@ -293,6 +293,18 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 - Fonts: [JetBrains Mono](https://www.jetbrains.com/lp/mono/), [Inter](https://rsms.me/inter/)
 - Icons: Inline SVG from [Simple Icons](https://simpleicons.org/)
 
+## 💎 Sponsors
+
+This project is proudly sponsored by:
+
+<p align="center">
+  <a href="https://monovm.com/" target="_blank">
+    <img src="https://monovm.com/cdn-cgi/image/width=640,quality=75/https://monovm.com/assets/images/monovm-logo.svg" alt="MonoVM VPS Hosting" width="300">
+  </a>
+</p>
+
+**[MonoVM](https://monovm.com/)** - Premium VPS Hosting Solutions
+
 ## 📧 Support
 
 If you have questions or need help:
