@@ -1,0 +1,13 @@
+# OpenFolio - robots.txt
+# This tells search engines how to crawl your site
+
+User-agent: *
+Allow: /
+
+# Sitemap location
+# Update this URL to match your actual domain
+Sitemap: https://yourwebsite.com/sitemap.xml
+
+# Optional: Disallow specific paths if needed
+# Disallow: /private/
+# Disallow: /temp/

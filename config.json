@@ -1,0 +1,275 @@
+{
+  "personal": {
+    "name": "Your Name",
+    "firstName": "Your",
+    "lastName": "Name",
+    "title": "SEO Strategist & Software Developer",
+    "subtitle": "Algorithmic Trading & Blockchain",
+    "email": "your.email@example.com",
+    "website": "https://yourwebsite.com",
+    "image": "/assets/images/headshot.jpg",
+    "bio": [
+      "I architect SEO strategies and build robust software systems with over <strong>X years</strong> of experience. Previously scaled organic growth at <strong>Company A</strong> and <strong>Company B</strong>, while developing algorithmic trading systems and blockchain solutions.",
+      "I combine technical depth with strategic thinking to deliver measurable results: from programmatic SEO to high-frequency trading algorithms."
+    ],
+    "yearsExperience": 10,
+    "projectsCompleted": 50,
+    "githubStars": 100
+  },
+  "seo": {
+    "description": "Official site of [Your Name]. SEO strategy and technical builds, algorithmic trading research, and blockchain experiments. Case studies, code, and writing.",
+    "keywords": ["SEO", "Software Development", "Algorithmic Trading", "Blockchain", "Laravel", "Node.js", "Python"],
+    "author": "Your Name",
+    "ogImage": "/assets/images/og-image.jpg",
+    "twitterHandle": "@YourTwitter",
+    "language": "en-US"
+  },
+  "schema": {
+    "jobTitle": "SEO Strategist & Software Developer",
+    "description": "SEO Strategist & Software Developer specializing in Algorithmic Trading & Blockchain technology.",
+    "knowsAbout": ["SEO", "Software Development", "Algorithmic Trading", "Blockchain", "Laravel", "Node.js", "Python", "Linux", "KVM"],
+    "alumniOf": "Your University",
+    "worksFor": [
+      "Company A",
+      "Company B"
+    ]
+  },
+  "social": {
+    "twitter": "https://twitter.com/YourTwitterHandle",
+    "linkedin": "https://linkedin.com/in/YourLinkedIn",
+    "github": "https://github.com/YourGitHub",
+    "medium": "https://medium.com/@YourMedium",
+    "youtube": "https://youtube.com/@YourYouTube"
+  },
+  "expertise": [
+    {
+      "icon": "🔍",
+      "title": "SEO Strategy",
+      "description": "Technical audits, programmatic SEO, and entity-based optimization that delivers measurable organic growth.",
+      "features": [
+        "Technical SEO audits & implementation",
+        "Programmatic SEO at scale",
+        "Entity building & knowledge graphs",
+        "Core Web Vitals optimization"
+      ],
+      "link": "#seo-work"
+    },
+    {
+      "icon": "💻",
+      "title": "Software Development",
+      "description": "Full-stack development with Laravel, Node.js, Python. Infrastructure expertise in Linux/KVM environments.",
+      "features": [
+        "Laravel, Node.js, Python stacks",
+        "RESTful & GraphQL APIs",
+        "Linux/KVM infrastructure",
+        "DevOps & CI/CD pipelines"
+      ],
+      "link": "#programming-work"
+    },
+    {
+      "icon": "📈",
+      "title": "Algorithmic Trading",
+      "description": "Systematic trading strategies with rigorous backtesting, risk management, and performance attribution.",
+      "features": [
+        "Quantitative strategy development",
+        "Backtesting & walk-forward analysis",
+        "Risk management frameworks",
+        "Performance analytics"
+      ],
+      "disclaimer": "⚠️ Research only, not financial advice",
+      "link": "#trading-work"
+    },
+    {
+      "icon": "⛓️",
+      "title": "Blockchain",
+      "description": "Smart contract development, validator operations, and blockchain infrastructure tooling.",
+      "features": [
+        "Smart contract development (Solidity)",
+        "Validator node operations",
+        "Blockchain infrastructure tools",
+        "Web3 integration"
+      ],
+      "link": "#blockchain-work"
+    }
+  ],
+  "trust": [
+    {
+      "icon": "📊",
+      "text": "<strong>10+</strong> Years Experience"
+    },
+    {
+      "icon": "🏢",
+      "text": "Company A, Company B, <strong>Notable Clients</strong>"
+    },
+    {
+      "icon": "⭐",
+      "text": "<strong>100+</strong> GitHub Stars"
+    },
+    {
+      "icon": "📝",
+      "text": "Published on <strong>Medium</strong>"
+    }
+  ],
+  "work": [
+    {
+      "id": "seo-work",
+      "category": "SEO",
+      "date": "2024",
+      "title": "Company A Organic Growth Strategy",
+      "description": "Implemented technical SEO optimizations and programmatic content strategy for hosting provider.",
+      "metrics": [
+        {"value": "+123%", "label": "Organic Traffic"},
+        {"value": "-40%", "label": "TTFB Improvement"},
+        {"value": "Top 3", "label": "Keyword Rankings"}
+      ],
+      "links": [
+        {"text": "Case Study →", "url": "#"}
+      ]
+    },
+    {
+      "id": "programming-work",
+      "category": "Development",
+      "date": "2024",
+      "title": "KVM Infrastructure Automation",
+      "description": "Built automated provisioning and management system for KVM-based virtual infrastructure.",
+      "metrics": [
+        {"value": "-70%", "label": "Deploy Time"},
+        {"value": "1000+", "label": "VMs Managed"},
+        {"value": "99.9%", "label": "Uptime"}
+      ],
+      "links": [
+        {"text": "GitHub →", "url": "https://github.com/YourRepo"},
+        {"text": "Demo →", "url": "#"}
+      ]
+    },
+    {
+      "id": "trading-work",
+      "category": "Algo Trading",
+      "date": "2024",
+      "title": "Mean Reversion Strategy Framework",
+      "description": "Systematic trading strategy with rigorous backtesting and out-of-sample validation. Research purposes only.",
+      "metrics": [
+        {"value": "2.1", "label": "Sharpe Ratio"},
+        {"value": "-12%", "label": "Max Drawdown"},
+        {"value": "5 Years", "label": "Backtest Period"}
+      ],
+      "disclaimer": "⚠️ Past performance ≠ future results. Not financial advice.",
+      "links": [
+        {"text": "Research Paper →", "url": "#"},
+        {"text": "Disclaimer →", "url": "/legal"}
+      ]
+    },
+    {
+      "id": "blockchain-work",
+      "category": "Blockchain",
+      "date": "2024",
+      "title": "DeFi Smart Contract Suite",
+      "description": "Developed and audited smart contracts for decentralized lending protocol with automated risk management.",
+      "metrics": [
+        {"value": "$2M+", "label": "TVL Secured"},
+        {"value": "100%", "label": "Audit Pass Rate"},
+        {"value": "10K+", "label": "Transactions"}
+      ],
+      "links": [
+        {"text": "GitHub →", "url": "https://github.com/YourRepo"},
+        {"text": "Contract →", "url": "#"}
+      ]
+    }
+  ],
+  "projects": [
+    {
+      "name": "seo-automation-toolkit",
+      "description": "Automated technical SEO auditing and reporting CLI tool built with Python.",
+      "tags": ["Python", "SEO", "CLI"],
+      "github": "https://github.com/YourRepo/seo-automation-toolkit"
+    },
+    {
+      "name": "laravel-api-boilerplate",
+      "description": "Production-ready Laravel REST API with authentication, RBAC, and API documentation.",
+      "tags": ["Laravel", "PHP", "API"],
+      "github": "https://github.com/YourRepo/laravel-api-boilerplate"
+    },
+    {
+      "name": "trading-backtester",
+      "description": "Vectorized backtesting engine for quantitative trading strategies with walk-forward optimization.",
+      "tags": ["Python", "NumPy", "Finance"],
+      "github": "https://github.com/YourRepo/trading-backtester"
+    },
+    {
+      "name": "web3-validator-monitor",
+      "description": "Real-time monitoring and alerting system for blockchain validator nodes.",
+      "tags": ["Node.js", "Web3", "Monitoring"],
+      "github": "https://github.com/YourRepo/web3-validator-monitor"
+    }
+  ],
+  "articles": [
+    {
+      "date": "October 15, 2025",
+      "title": "The Evolution of Programmatic SEO in 2025",
+      "excerpt": "How modern programmatic SEO strategies leverage entity-based approaches and structured data to dominate search results at scale.",
+      "url": "https://medium.com/@YourMedium/article-slug-1"
+    },
+    {
+      "date": "September 28, 2025",
+      "title": "Building High-Performance Laravel APIs",
+      "excerpt": "Best practices for designing and optimizing Laravel APIs that handle millions of requests with sub-100ms response times.",
+      "url": "https://medium.com/@YourMedium/article-slug-2"
+    },
+    {
+      "date": "September 10, 2025",
+      "title": "Backtesting Trading Strategies: Avoiding Common Pitfalls",
+      "excerpt": "A deep dive into proper backtesting methodology, from data quality to walk-forward analysis and avoiding look-ahead bias.",
+      "url": "https://medium.com/@YourMedium/article-slug-3"
+    },
+    {
+      "date": "August 22, 2025",
+      "title": "Smart Contract Security: Lessons from DeFi",
+      "excerpt": "Essential security patterns and common vulnerabilities in Solidity smart contracts based on real-world DeFi exploits.",
+      "url": "https://medium.com/@YourMedium/article-slug-4"
+    }
+  ],
+  "testimonials": [
+    {
+      "text": "Sina's SEO expertise helped us triple our organic traffic in 6 months. His technical depth and strategic approach are unmatched.",
+      "author": "John Doe",
+      "role": "CTO, Company A"
+    },
+    {
+      "text": "The infrastructure automation Sina built has saved us countless hours and eliminated deployment errors. Exceptional engineering work.",
+      "author": "Jane Smith",
+      "role": "VP Engineering, Company B"
+    },
+    {
+      "text": "Working with Sina on our DeFi smart contracts gave us confidence in our security posture. Thorough, professional, and highly skilled.",
+      "author": "Alex Johnson",
+      "role": "Founder, DeFi Protocol"
+    },
+    {
+      "text": "Sina's systematic approach to algorithmic trading research is impressive. His backtesting methodology is rigorous and well-documented.",
+      "author": "Michael Chen",
+      "role": "Quant Researcher"
+    }
+  ],
+  "faq": [
+    {
+      "question": "What kinds of SEO projects do you take?",
+      "answer": "I focus on technical SEO, programmatic SEO at scale, and entity-based optimization for SaaS, hosting, and tech companies. Projects typically include technical audits, Core Web Vitals optimization, structured data implementation, and programmatic content strategies. I provide measurable outcomes with full documentation and code access when applicable."
+    },
+    {
+      "question": "Which tech stacks do you prefer for web applications?",
+      "answer": "My primary stacks are Laravel (PHP) for robust backends with extensive ecosystem support, Node.js for real-time applications and microservices, and Python for data processing and automation. I deploy on Linux environments (Ubuntu/Debian) with KVM virtualization and Docker containerization. For APIs, I build both RESTful and GraphQL architectures depending on client needs."
+    },
+    {
+      "question": "How do you approach algorithmic trading research?",
+      "answer": "All research follows rigorous scientific methodology: data quality validation, walk-forward analysis, out-of-sample testing, and Monte Carlo simulations. I focus on systematic, rule-based strategies with clear risk management frameworks. All work is for research purposes only—I don't provide financial advice or manage funds. Results include full backtesting reports with transaction costs and slippage assumptions."
+    },
+    {
+      "question": "Do you offer blockchain audits or only experiments?",
+      "answer": "I offer smart contract development, security reviews, and validator infrastructure setup. While I conduct thorough code reviews using industry-standard tools (Slither, Mythril, manual analysis), formal audits should be supplemented with specialized audit firms for production DeFi protocols. I'm best suited for development, architecture consulting, and infrastructure work in the blockchain space."
+    },
+    {
+      "question": "How can we verify your results and expertise?",
+      "answer": "All case studies link to verifiable data: GitHub repositories for code, published articles for methodologies, and anonymized analytics screenshots for outcomes. My Medium publications detail technical approaches with reproducible steps. You can review my code quality on GitHub, read independent testimonials, and request references from past clients. I maintain transparency through open-source contributions and detailed documentation."
+    }
+  ]
+}
