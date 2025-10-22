@@ -313,7 +313,7 @@ If you find this template helpful, please consider:
 
 ## 📸 Screenshots
 
-> Add your deployed portfolio screenshot here after customization!
+![OpenFolio Screenshot](assets/images/Screenshot_65.png)
 
 ## 🚀 Examples
 
