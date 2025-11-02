@@ -1,0 +1,332 @@
+====================================
+OpenFolio - Quick Start Guide
+====================================
+
+Thank you for purchasing OpenFolio!
+This is a quick reference guide to get you started.
+
+For detailed documentation, please open:
+→ documentation.html (in your browser)
+
+====================================
+QUICK START (5 Minutes)
+====================================
+
+1. EXTRACT FILES
+   -------------
+   Extract all files from the ZIP archive to a folder on your computer.
+
+2. EDIT CONFIGURATION
+   ------------------
+   Open: config.json
+
+   Update these essential fields:
+   • personal.name - Your full name
+   • personal.email - Your email address
+   • personal.title - Your job title
+   • personal.website - Your website URL
+   • seo.description - Your meta description
+   • social.* - Your social media links
+
+3. ADD YOUR IMAGES
+   ---------------
+   Replace these images in assets/images/:
+   • headshot.jpg - Your profile photo (400x400px recommended)
+   • og-image.jpg - Social sharing image (1200x630px recommended)
+   • favicon.svg - Your website icon
+
+4. TEST LOCALLY
+   ------------
+   Open index.html in your web browser
+   OR use a local server (recommended):
+
+   Python:  python -m http.server 8000
+   Node:    npx http-server
+   PHP:     php -S localhost:8000
+
+5. DEPLOY
+   ------
+   Upload all files to your web hosting via FTP/SFTP
+   OR use free hosting: GitHub Pages, Netlify, Vercel
+
+====================================
+FILE STRUCTURE
+====================================
+
+openfolio/
+├── index.html              ← Main HTML file (your portfolio)
+├── config.json             ← YOUR CONTENT (edit this!)
+├── documentation.html      ← Full documentation
+├── css/style.css          ← Styles and theme colors
+├── js/main.js             ← JavaScript functionality
+├── assets/
+│   ├── images/            ← Your images go here
+│   └── favicon.svg        ← Your favicon
+├── LICENSE                ← License information
+├── CHANGELOG.txt          ← Version history
+├── credits.txt            ← Third-party resources
+└── help.txt               ← This file
+
+====================================
+CUSTOMIZATION BASICS
+====================================
+
+CHANGE CONTENT:
+---------------
+Edit config.json - all your content is here!
+• Personal info, bio, stats
+• Expertise/services
+• Projects and work samples
+• Testimonials
+• FAQ
+• Social links
+
+CHANGE COLORS:
+--------------
+Edit css/style.css
+Look for :root { } section at the top
+Change these CSS variables:
+  --color-primary: #10b981;    ← Main accent color
+  --color-accent: #3b82f6;     ← Secondary accent
+  --color-bg: #0a0e27;         ← Background color
+  --color-text: #e4e4e7;       ← Text color
+
+CHANGE FONTS:
+-------------
+1. Update Google Fonts link in index.html (line ~35)
+2. Update font-family in css/style.css
+   (search for: --font-heading and --font-body)
+
+ADD/REMOVE SECTIONS:
+--------------------
+In index.html, find the section you want to modify
+Each section is wrapped in <section> tags
+• Comment out sections you don't need: <!-- section here -->
+• Reorder sections by moving the HTML blocks
+
+====================================
+IMPORTANT FILES TO EDIT
+====================================
+
+✓ MUST EDIT:
+  • config.json - Your content
+  • assets/images/headshot.jpg - Your photo
+  • assets/images/og-image.jpg - Social sharing image
+  • robots.txt - Update with your domain
+  • sitemap.xml - Update with your URLs
+
+✓ OPTIONAL TO EDIT:
+  • css/style.css - Colors and styles
+  • index.html - Structure and layout
+  • js/main.js - Animations and behavior
+
+✗ DON'T EDIT (unless you know what you're doing):
+  • documentation.html
+  • CHANGELOG.txt
+  • credits.txt
+  • LICENSE
+
+====================================
+COMMON TASKS
+====================================
+
+ADD A NEW PROJECT:
+------------------
+In config.json, find "projects": [ ... ]
+Add a new object:
+{
+  "name": "my-project",
+  "description": "Project description...",
+  "tags": ["tag1", "tag2"],
+  "github": "https://github.com/username/repo"
+}
+
+ADD A TESTIMONIAL:
+------------------
+In config.json, find "testimonials": [ ... ]
+Add a new object:
+{
+  "text": "The testimonial text...",
+  "author": "Client Name",
+  "role": "Job Title, Company"
+}
+
+ADD A FAQ:
+----------
+In config.json, find "faq": [ ... ]
+Add a new object:
+{
+  "question": "The question?",
+  "answer": "The answer..."
+}
+
+CHANGE STATS (Years, Projects, Stars):
+---------------------------------------
+In config.json, find "personal": { ... }
+Update these numbers:
+  "yearsExperience": 10,
+  "projectsCompleted": 50,
+  "githubStars": 100
+
+====================================
+SEO OPTIMIZATION
+====================================
+
+1. Update Meta Description:
+   In config.json → seo.description
+   Keep it under 155 characters
+
+2. Add Keywords:
+   In config.json → seo.keywords
+   Add relevant keywords as array
+
+3. Update Sitemap:
+   Edit sitemap.xml
+   Replace "https://yourwebsite.com" with your actual domain
+
+4. Update robots.txt:
+   Edit robots.txt
+   Replace "https://yourwebsite.com/sitemap.xml" with your actual sitemap URL
+
+5. Test SEO:
+   Use Google's Rich Results Test
+   https://search.google.com/test/rich-results
+
+6. Add Google Analytics (optional):
+   Insert tracking code in index.html before </head>
+
+====================================
+TROUBLESHOOTING
+====================================
+
+CONFIG CHANGES NOT SHOWING?
+  → Clear browser cache (Ctrl+Shift+R or Cmd+Shift+R)
+  → Validate JSON at https://jsonlint.com/
+  → Check browser console (F12) for errors
+
+IMAGES NOT LOADING?
+  → Check file paths are correct
+  → Use forward slashes: /assets/images/photo.jpg
+  → Check file names match exactly (case-sensitive)
+
+FONTS NOT DISPLAYING?
+  → Check internet connection (fonts load from Google)
+  → Try different browser
+  → Check browser console for errors
+
+MOBILE MENU NOT WORKING?
+  → Clear browser cache
+  → Check console for JavaScript errors
+  → Don't modify navigation HTML structure
+
+ANIMATIONS NOT WORKING?
+  → Check js/main.js is linked in index.html
+  → Clear browser cache
+  → Check console for errors
+
+====================================
+BROWSER SUPPORT
+====================================
+
+✓ Supported:
+  • Chrome (latest 2 versions)
+  • Firefox (latest 2 versions)
+  • Safari (latest 2 versions)
+  • Edge (latest 2 versions)
+  • Mobile browsers (iOS 12+, Android 5+)
+
+✗ Not Supported:
+  • Internet Explorer (any version)
+
+====================================
+DEPLOYMENT OPTIONS
+====================================
+
+FREE HOSTING:
+-------------
+• GitHub Pages (free for public repos)
+• Netlify (free tier available)
+• Vercel (free tier available)
+
+TRADITIONAL HOSTING:
+--------------------
+• Upload via FTP/SFTP
+• Any hosting with HTML support works
+• No special requirements (static files only)
+
+====================================
+NEED MORE HELP?
+====================================
+
+1. Read the full documentation:
+   → Open documentation.html in browser
+
+2. Check these files:
+   → CHANGELOG.txt - Version history
+   → credits.txt - Resources used
+   → README.md - GitHub README
+
+3. Contact support:
+   → Use ThemeForest support system
+   → Include details about your issue
+   → Attach screenshots if possible
+   → We respond within 24-48 hours
+
+====================================
+PRO TIPS
+====================================
+
+✓ Optimize images before uploading (use TinyPNG.com)
+✓ Validate your JSON at jsonlint.com before saving
+✓ Test on mobile devices, not just desktop
+✓ Use browser developer tools (F12) to debug
+✓ Keep backups of your config.json file
+✓ Test in multiple browsers before going live
+✓ Add Google Analytics to track visitors
+✓ Update content regularly to keep it fresh
+
+====================================
+WHAT'S INCLUDED
+====================================
+
+✓ Responsive HTML template
+✓ Pure vanilla JavaScript (no frameworks)
+✓ SEO-optimized with structured data
+✓ Multiple sections: hero, work, projects, writing, testimonials, FAQ
+✓ Easy JSON configuration
+✓ Full documentation
+✓ Quick start guide
+✓ Sample images
+✓ Favicon template
+✓ robots.txt and sitemap.xml
+✓ Free updates
+✓ 6 months support
+
+====================================
+THANK YOU!
+====================================
+
+Thank you for choosing OpenFolio!
+
+If you're happy with this template:
+⭐ Please leave a 5-star rating on ThemeForest
+⭐ Share with other developers
+⭐ Tag us in your portfolio (@sina-nasiri on GitHub)
+
+We appreciate your support! 🙏
+
+====================================
+Quick Links
+====================================
+
+Documentation:   documentation.html
+Support:         ThemeForest support system
+Updates:         Check your ThemeForest downloads
+Author:          https://github.com/sina-nasiri
+
+====================================
+
+Created with ❤️ by Sina Nasiri
+Version 1.0.0 | November 2, 2025
+
+====================================

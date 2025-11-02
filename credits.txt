@@ -1,0 +1,224 @@
+====================================
+OpenFolio - Credits & Resources
+====================================
+
+This file lists all third-party resources, fonts, icons, and tools used in this template,
+along with their licenses and attribution information.
+
+====================================
+Fonts
+====================================
+
+1. JetBrains Mono
+   -------------
+   Description: Monospace font for code/terminal elements
+   Source: https://www.jetbrains.com/lp/mono/
+   License: SIL Open Font License 1.1 (OFL)
+   License URL: https://scripts.sil.org/OFL
+   Usage: Terminal-style text, code snippets, and technical elements
+   Loaded via: Google Fonts CDN
+
+2. Inter
+   -----
+   Description: Modern sans-serif font for body text
+   Source: https://rsms.me/inter/
+   License: SIL Open Font License 1.1 (OFL)
+   License URL: https://scripts.sil.org/OFL
+   Usage: Body text, headings, and general content
+   Loaded via: Google Fonts CDN
+
+====================================
+Icons
+====================================
+
+Simple Icons
+------------
+Description: SVG icons for popular brands and technologies
+Source: https://simpleicons.org/
+License: CC0 1.0 Universal (Public Domain)
+License URL: https://creativecommons.org/publicdomain/zero/1.0/
+Usage: Social media icons in footer (inline SVG)
+Icons used: Twitter, LinkedIn, GitHub, Medium, YouTube
+
+Note: All icons are embedded as inline SVG code in the HTML file.
+      No external icon libraries or fonts are used.
+
+====================================
+Technologies & Tools
+====================================
+
+HTML5
+-----
+Description: Markup language
+License: W3C Software License
+Usage: Template structure and content
+
+CSS3
+----
+Description: Styling language
+License: W3C Software License
+Usage: All styles, animations, and responsive design
+
+JavaScript (ES6+)
+-----------------
+Description: Programming language
+License: ECMAScript specification (royalty-free)
+Usage: Interactivity, animations, and dynamic content loading
+
+====================================
+Development Resources
+====================================
+
+The following resources were consulted during development
+(no code was directly copied, used for reference only):
+
+• MDN Web Docs (https://developer.mozilla.org/)
+  - HTML, CSS, and JavaScript documentation
+  - License: CC-BY-SA 2.5
+
+• Can I Use (https://caniuse.com/)
+  - Browser compatibility reference
+  - License: CC BY 4.0
+
+• CSS-Tricks (https://css-tricks.com/)
+  - CSS best practices and techniques
+  - License: Various (articles used for reference only)
+
+====================================
+Design Inspiration
+====================================
+
+The terminal/CLI aesthetic is inspired by:
+• Classic Unix/Linux terminal interfaces
+• Modern code editors (VS Code, JetBrains IDEs)
+• Developer tools and command-line applications
+
+No specific templates or themes were copied.
+All code is original and written specifically for OpenFolio.
+
+====================================
+Images
+====================================
+
+Sample/Placeholder Images
+-------------------------
+All images in the template are either:
+• Created specifically for this template (screenshot, og-image placeholders)
+• User-provided (headshot, project images, etc.)
+• Royalty-free/public domain
+
+Note: Users must replace all placeholder images with their own content
+      or properly licensed images before deployment.
+
+====================================
+Code Libraries
+====================================
+
+This template uses NO external JavaScript libraries or frameworks:
+✓ No jQuery
+✓ No Bootstrap JavaScript
+✓ No React, Vue, or Angular
+✓ Pure vanilla JavaScript only
+
+CSS Frameworks:
+✓ No Bootstrap CSS
+✓ No Tailwind CSS
+✓ No Foundation
+✓ Custom CSS written from scratch
+
+====================================
+Browser Compatibility References
+====================================
+
+• Normalize.css concepts (reset styles)
+  - License: MIT
+  - Note: Concepts used, not the library itself
+  - URL: https://necolas.github.io/normalize.css/
+
+====================================
+SEO & Schema.org
+====================================
+
+Schema.org Structured Data
+--------------------------
+Source: https://schema.org/
+License: CC BY-SA 3.0
+Usage: Structured data markup for Person, Website, FAQ, and Breadcrumb schemas
+
+====================================
+Testing Tools (Development Only)
+====================================
+
+The following tools were used during development and testing:
+• Google Lighthouse - Performance and SEO audits
+• W3C Validator - HTML validation
+• W3C CSS Validator - CSS validation
+• Google Rich Results Test - Schema.org validation
+• BrowserStack - Cross-browser testing
+
+Note: These tools are not included in the template.
+
+====================================
+License Summary
+====================================
+
+OpenFolio Template:
+  License: MIT License (for ThemeForest customers)
+  See LICENSE file for full terms
+
+Third-party Resources:
+  • JetBrains Mono: OFL 1.1 ✓
+  • Inter Font: OFL 1.1 ✓
+  • Simple Icons: CC0 1.0 (Public Domain) ✓
+
+All third-party resources are used in compliance with their respective licenses.
+
+====================================
+Attribution Requirements
+====================================
+
+Required Attribution:
+• None required for end-users of this template
+
+Optional Attribution (appreciated but not required):
+• Link back to author's portfolio or GitHub
+• Credit in footer or documentation
+
+Prohibited:
+• Redistribution or resale of this template
+• Creating derivative templates for sale
+• Removing copyright notices from code comments
+
+====================================
+Disclaimer
+====================================
+
+While every effort has been made to ensure all third-party resources
+are properly credited and used in compliance with their licenses,
+if you notice any attribution errors or licensing concerns,
+please contact us immediately so we can address them.
+
+====================================
+Questions?
+====================================
+
+If you have questions about any of the resources used in this template,
+their licenses, or attribution requirements, please contact us through
+the ThemeForest support system.
+
+====================================
+Thank You
+====================================
+
+Special thanks to:
+• JetBrains for the excellent JetBrains Mono font
+• Rasmus Andersson for the beautiful Inter font
+• Simple Icons contributors for the icon collection
+• The open-source community for inspiration and resources
+
+====================================
+
+Created with ❤️ by Sina Nasiri
+© 2025 All rights reserved
+
+Last updated: November 2, 2025

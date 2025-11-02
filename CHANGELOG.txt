@@ -1,0 +1,141 @@
+====================================
+OpenFolio - Changelog
+====================================
+
+Version 1.0.0 - November 2, 2025
+====================================
+
+Initial Release
+---------------
+• First public release on ThemeForest
+• Modern terminal-inspired portfolio template
+• Fully responsive design (mobile, tablet, desktop)
+• SEO-optimized with structured data
+• Pure vanilla JavaScript (no frameworks)
+
+Features
+--------
+✓ Hero section with animated statistics
+✓ Trust/credibility indicators bar
+✓ Expertise/services showcase with 4 pillars
+✓ Featured work section with metrics
+✓ Projects portfolio with GitHub integration
+✓ Writing/articles section
+✓ Testimonials section
+✓ FAQ section with Schema.org markup
+✓ Contact section
+✓ Comprehensive footer with social links
+
+Technical
+---------
+✓ HTML5 semantic markup
+✓ CSS3 with CSS Grid and Flexbox
+✓ CSS Custom Properties for easy theming
+✓ Vanilla JavaScript ES6+
+✓ Responsive navigation with mobile menu
+✓ Smooth scroll animations
+✓ Intersection Observer for scroll effects
+✓ Counter animations
+✓ Terminal boot loader animation
+
+SEO Features
+------------
+✓ Open Graph meta tags
+✓ Twitter Card meta tags
+✓ Schema.org structured data:
+  - Person schema
+  - Website schema
+  - FAQ schema
+  - Breadcrumb schema
+✓ Semantic HTML5
+✓ ARIA labels for accessibility
+✓ Keyboard navigation support
+✓ robots.txt included
+✓ sitemap.xml included
+
+Configuration
+-------------
+✓ Single config.json file for all content
+✓ Easy customization without editing HTML
+✓ Dynamic content loading
+✓ Modular component structure
+
+Assets
+------
+✓ JetBrains Mono font (Google Fonts)
+✓ Inter font (Google Fonts)
+✓ Inline SVG icons
+✓ Sample images included
+✓ Favicon template
+
+Documentation
+-------------
+✓ Comprehensive HTML documentation
+✓ Quick start help.txt file
+✓ Credits and licenses file
+✓ Detailed README.md
+✓ CUSTOMIZATION.md guide
+
+Browser Support
+---------------
+✓ Chrome (latest 2 versions)
+✓ Firefox (latest 2 versions)
+✓ Safari (latest 2 versions)
+✓ Edge (latest 2 versions)
+✓ Opera (latest 2 versions)
+✓ Mobile Safari iOS 12+
+✓ Chrome Mobile Android 5+
+
+Files Included
+--------------
+• index.html - Main HTML file
+• config.json - Configuration file
+• documentation.html - Full documentation
+• CHANGELOG.txt - This file
+• help.txt - Quick start guide
+• credits.txt - Third-party resources
+• LICENSE - MIT License
+• README.md - Project README
+• robots.txt - SEO robots file
+• sitemap.xml - XML sitemap
+• css/style.css - All styles
+• js/main.js - JavaScript functionality
+• assets/images/ - Image assets
+• assets/favicon.svg - Favicon
+• docs/ - Additional documentation
+
+Known Issues
+------------
+• None at this time
+
+Future Updates
+--------------
+Planned features for upcoming versions:
+• Dark/Light theme toggle
+• More color scheme presets
+• Additional section layouts
+• Blog integration options
+• Multi-language support
+• Additional animation options
+
+====================================
+Support
+====================================
+
+For support, please use the ThemeForest support system:
+1. Go to your ThemeForest account
+2. Find OpenFolio in your downloads
+3. Click the "Support" tab
+4. Submit your question
+
+We respond within 24-48 hours (business days).
+
+====================================
+Thank you for choosing OpenFolio!
+====================================
+
+If you're happy with this template, please
+consider leaving a 5-star rating on ThemeForest.
+
+Created with ❤️ by Sina Nasiri
+© 2025 All rights reserved
